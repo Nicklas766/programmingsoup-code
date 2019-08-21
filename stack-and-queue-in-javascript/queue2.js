@@ -15,7 +15,7 @@ Queue.prototype.enqueue = function(element) {
 /**
  * Delete an element at the front of the queue in O(1) running time
  */
-Queue.prototype.dequeue = function(element) {
+Queue.prototype.dequeue = function() {
     if (this.rear === this.front)
         return undefined
 

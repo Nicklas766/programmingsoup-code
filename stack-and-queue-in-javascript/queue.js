@@ -13,7 +13,7 @@ Queue.prototype.enqueue = function(element) {
 /**
  * Delete an element at the front of the queue in O(n) running time
  */
-Queue.prototype.dequeue = function(element) {
+Queue.prototype.dequeue = function() {
     return this.elements.shift()
 }
 
